@@ -9,6 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+
 import com.opensymphony.xwork2.inject.Scope.Strategy;
 
 /*
@@ -28,6 +29,8 @@ public class Customer {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="cust_id")
 	private Long custId;
+	
+	private String  mobile;
 	
 	
 	@Column(name="cust_name")
