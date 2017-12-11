@@ -31,6 +31,7 @@ public class Customer {
 	private Long custId;
 	
 	private String  mobile;
+	privagt String sex;
 	
 	
 	@Column(name="cust_name")
