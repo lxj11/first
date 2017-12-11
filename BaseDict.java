@@ -29,6 +29,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="base_dict")
 public class BaseDict {
+	private String name;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
