@@ -6,6 +6,10 @@ public class JavaFirst {
 
 	@Test
 	public void testHelloWrold() {
+		
+		
+		private String  name ;
+		private String sex;
 		System.out.println("HelloWorld!");
 	}
 }
