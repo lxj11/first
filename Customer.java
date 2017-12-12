@@ -29,6 +29,8 @@ public class Customer {
 	private String name ;
 	private String sex;
 	private Integer age;
+	
+	private String hobby;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="cust_id")
