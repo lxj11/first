@@ -25,6 +25,10 @@ import com.opensymphony.xwork2.inject.Scope.Strategy;
 @Entity
 @Table(name="cst_customer")
 public class Customer {
+	
+	private String name ;
+	private String sex;
+	private Integer age;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="cust_id")
