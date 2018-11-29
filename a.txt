@@ -1,3 +1,2 @@
-lxj 修改了a.txt
-test2修改了a.txt
+lxj修改了a.txt
 
