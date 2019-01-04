@@ -1,0 +1,14 @@
+github:
+	username:lxj11
+	password:jing11@
+码云:
+	username:xiaojing11
+	password:jing11@
+博客园:
+	username:xiaojing11
+	password:jing1993@
+CSDN:
+	username:18310678488
+	password:liuxiaojing1993@
+	
+	
